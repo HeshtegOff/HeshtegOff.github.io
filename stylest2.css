@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	background-image:url(Material/fon.png);
+	background-size: cover;
+}
+
+.container {
+	max-width: 1920px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin: 0px auto 0px;
+}
+
+.header {
+	background-color: rgba(10, 16, 50, 0.13);
+	height: 10vh;
+	display: inline-flex;
+	float: left;
+}
+
+#logo {
+    object-fit: contain;
+		object-position: left;
+		max-width: 10%;
+}
+
+.buttons {
+/* 	justify-content: space-around; */
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: auto;
+	max-width: 90%;
+	justify-content: center;
+/* для медиа, тел экранов меньше 876 */
+}
+
+.button {
+	font-size: 1vw;
+	max-width: 500px;
+	min-width: 150px;
+	height: 60px;
+	background-color: rgba(10, 16, 50, 0.1);
+	color: rgb(255, 255, 255);
+	border: 1px;
+}
+
+.button:hover {
+	max-width: 500px;
+	min-width: 150px;
+	height: 60px;
+	background-color: rgba(30, 20, 160, 0.562);
+	color: aliceblue;
+}
+
+.center {
+	background-color: rgba(0, 0, 0, 0.65);
+	color: aliceblue;
+	padding: 20px;
+	text-align: center;
+	padding: 3%;
+	flex-grow: 1;
+	font-size: 1vw;
+}
+
+.footer{
+	background-color: rgba(0, 0, 0, 0.01);
+	height: 10vh;
+	padding-left: 6vw;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.a-foot {
+	text-decoration: none;
+	color: aliceblue;
+	justify-content: center;
+}
+
+.h1 {
+	font-size: 3vw;
+	margin-top: 0px;
+}
+
+@media (max-width: 876px) {
+	.button{
+		max-width: 100px;
+		min-width:40px;
+		height: 35px;
+	}
+}
