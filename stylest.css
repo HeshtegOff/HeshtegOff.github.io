@@ -7,8 +7,9 @@
 }
 
 body {
-	background-image:url(Material/fon.png);
+	background-image:url(Material/fon2.png);
 	background-size: cover;
+	background-color: hsl(222, 100%, 13%);
 }
 
 .container {
@@ -87,13 +88,6 @@ body {
 	font-size: 25px;
 }
 
-/*#main {
-	display: grid;
-	grid-template-columns: 3fr 2fr;
-	grid-template-rows: 1fr 19fr; 
-}
-	*/
-
 #main-box {
 	box-sizing: border-box;
 	display: grid;
@@ -104,7 +98,7 @@ body {
 	padding: 1%;
 }
 
-#news {
+#news-box {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: aliceblue;
 	padding: 20px;
@@ -114,7 +108,7 @@ body {
 	font-size: 14;
 }
 
-#history {
+#history-box {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: aliceblue;
 	padding: 20px;
@@ -124,7 +118,7 @@ body {
 	font-size: 14;
 }
 
-#useful {
+#useful-box {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: aliceblue;
 	padding: 20px;
@@ -134,7 +128,7 @@ body {
 	font-size: 14;
 }
 
-#info {
+#info-box {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: aliceblue;
 	padding: 20px;
